@@ -1,0 +1,7 @@
+prisijungimai su skirtingais teisiu lygiais
+accesslevel: 1, leidzia tik perziureti esamus vartotojus, kategorijas ir pajamas su islaidomis
+accesslevel: 2, leidzia kurti, redaguoti ir trinti kategorijas, pajamas ir islaidas
+accesslevel: 3, mato useriu prisijungimus, gali prideti naujus ir istrinti esamus userius
+
+login: admin psw: 123 accesslevel: 3
+login: guest psw: 123 accesslevel: 1
