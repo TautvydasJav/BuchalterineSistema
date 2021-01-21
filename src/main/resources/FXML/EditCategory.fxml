@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="150.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccountingSystem.Controllers.EditCategoryControl">
+   <children>
+      <TextField fx:id="newName" layoutX="19.0" layoutY="63.0" prefHeight="31.0" prefWidth="219.0" promptText="Enter new name" />
+      <Button fx:id="saveBtn" layoutX="254.0" layoutY="107.0" mnemonicParsing="false" onAction="#saveChanges" text="Save changes" />
+      <TextField fx:id="newDesc" layoutX="19.0" layoutY="104.0" prefHeight="31.0" prefWidth="219.0" promptText="Enter new description" />
+      <Label layoutX="19.0" layoutY="14.0" prefHeight="25.0" prefWidth="153.0" text="Edit category:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

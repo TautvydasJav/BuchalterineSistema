@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccountingSystem.Controllers.MenuPageControl">
+    <children>
+        <SplitPane layoutY="4.0" prefHeight="393.0" prefWidth="592.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <Label layoutX="205.0" layoutY="14.0" prefHeight="46.0" prefWidth="181.0" text="AccountingOS">
+                            <font>
+                                <Font name="Dubai Bold" size="28.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="517.0" layoutY="369.0" text="Version 1.10" />
+                  <Button fx:id="users" layoutX="59.0" layoutY="181.0" mnemonicParsing="false" onAction="#openUsers" prefHeight="50.0" prefWidth="135.0" text="Manage users" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="59.0" AnchorPane.rightAnchor="396.0" AnchorPane.topAnchor="181.0" />
+                  <Button fx:id="categories" layoutX="59.0" layoutY="111.0" mnemonicParsing="false" onAction="#openCategories" prefHeight="50.0" prefWidth="135.0" text="Manage Categories" />
+                  <Button fx:id="exit" layoutX="59.0" layoutY="251.0" mnemonicParsing="false" onAction="#exitAlert" prefHeight="50.0" prefWidth="135.0" text="Exit" />
+                  <Label fx:id="loggedInLabel" layoutX="340.0" layoutY="111.0" prefHeight="80.0" prefWidth="227.0" />
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

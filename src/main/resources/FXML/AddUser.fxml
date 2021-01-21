@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="344.0" prefWidth="247.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccountingSystem.Controllers.AddUserControl">
+   <children>
+      <TabPane fx:id="tabPane" layoutX="1.0" layoutY="4.0" prefHeight="338.0" prefWidth="248.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="employeeTab" text="Add employee">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="280.0" prefWidth="231.0">
+                     <children>
+                        <TextField fx:id="loginNameEmpField" layoutX="23.0" layoutY="63.0" promptText="Login name" />
+                        <PasswordField fx:id="passwordEmpField" layoutX="24.0" layoutY="97.0" promptText="Password" />
+                        <TextField fx:id="firstNameField" layoutX="23.0" layoutY="136.0" promptText="First name" />
+                        <TextField fx:id="lastNameField" layoutX="23.0" layoutY="173.0" promptText="Last name" />
+                        <ChoiceBox fx:id="accessEmpLevel" layoutX="23.0" layoutY="211.0" prefWidth="150.0" />
+                        <Label layoutX="23.0" layoutY="21.0" prefHeight="27.0" prefWidth="138.0" text="Enter information:" />
+                        <Button fx:id="addEmployeeBtn" layoutX="105.0" layoutY="254.0" mnemonicParsing="false" onAction="#addEmployee" text="Add" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="legalTab" text="Add legal person">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="addLegalBtn" layoutX="106.0" layoutY="253.0" mnemonicParsing="false" onAction="#addCompany" text="Add" />
+                        <ChoiceBox fx:id="accessLevelComp" layoutX="29.0" layoutY="205.0" prefWidth="150.0" />
+                        <Label layoutX="29.0" layoutY="32.0" text="Enter information:" />
+                        <TextField fx:id="loginNameCompField" layoutX="29.0" layoutY="75.0" promptText="Login name" />
+                        <TextField fx:id="companyNameField" layoutX="29.0" layoutY="155.0" promptText="Company's name" />
+                        <PasswordField fx:id="passwordCompField" layoutX="29.0" layoutY="112.0" promptText="Password" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
