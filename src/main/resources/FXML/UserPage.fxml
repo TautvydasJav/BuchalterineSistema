@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane onMousePressed="#deselectItem" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccountingSystem.Controllers.UserControl">
+<AnchorPane onMousePressed="#deselectItem" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system.controllers.UserControl">
     <children>
         <ListView fx:id="userList" layoutX="34.0" layoutY="32.0" onMouseClicked="#clickedItem" prefHeight="348.0" prefWidth="266.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="32.0" />
         <Button fx:id="addUserBtn" layoutX="369.0" layoutY="41.0" mnemonicParsing="false" onAction="#addUser" prefHeight="46.0" prefWidth="166.0" text="Add User" />

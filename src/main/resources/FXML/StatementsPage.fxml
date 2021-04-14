@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane onMousePressed="#deselectItem" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccountingSystem.Controllers.StatementsControl">
+<AnchorPane onMousePressed="#deselectItem" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system.controllers.StatementsControl">
    <children>
       <SplitPane dividerPositions="0.5059422750424448" layoutX="6.0" prefHeight="335.0" prefWidth="591.0">
         <items>
